@@ -1,0 +1,28 @@
+{
+  "name": "example-plugin",
+  "version": "0.1.0",
+  "description": "Template plugin that documents the Codex plugin layout and how to add a new plugin to this GitHub-hosted marketplace.",
+  "author": {
+    "name": "MengY37",
+    "url": "https://github.com/MengY37"
+  },
+  "homepage": "https://github.com/MengY37/codex-plugin-marketplace",
+  "repository": "https://github.com/MengY37/codex-plugin-marketplace",
+  "license": "MIT",
+  "keywords": ["template", "marketplace", "plugin-authoring"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Example Plugin",
+    "shortDescription": "Template plugin for this marketplace.",
+    "longDescription": "Example Plugin is the starting point for plugins published in this marketplace. It ships one skill that explains the required file layout, manifest fields, marketplace entry, and validation step.",
+    "developerName": "MengY37",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#3B82F6",
+    "defaultPrompt": [
+      "Add a plugin to this marketplace",
+      "Validate the marketplace files",
+      "Explain the plugin.json fields"
+    ]
+  }
+}
